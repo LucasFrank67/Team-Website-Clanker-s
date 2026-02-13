@@ -1,6 +1,8 @@
 @font-face {
     font-family: nevera;
     src: url(nevera\ \(2\).otf) format("opentype");
+    src: url(cyberform-demo.otf) format("opentype");
+    font-family: cyberform;
 }
 body{ 
     background-color: rgb(0,174, 255);
@@ -10,5 +12,5 @@ body{
 
 }
 h1 {
-    
+    font-family: cyberform;
 }
