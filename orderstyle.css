@@ -1,0 +1,12 @@
+.yo {
+    display:flex;
+    flex-direction: row;
+    text-align:center;
+}
+
+th {
+    position:relative;
+    margin:0;
+    font-size:30px;
+    padding:10px 50px 10px 50px;
+}
