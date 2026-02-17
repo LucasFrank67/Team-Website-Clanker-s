@@ -16,24 +16,33 @@ body {
     font-family: nevera;
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
+    
+    
 
 }
 h1 {
     font-family: Cyberform;
-    font-size: 120px
+    font-size: 75px
 
 }
 
-nav{
+nav  {
     -webkit-animation: glow 3s ease-in-out infinite alternate;
     animation: glow 3s ease-in-out infinite alternate;
     -moz-animation: glow 3s ease-in-out infinite alternate;
-   display: flex;
+   display: block;
    float: left;
    border: 2px solid rgb(0, 174, 255);
-   width: 20%;
-   height: 50%;
-} 
+   width: 10%;
+   height: 700px;
+   padding: 10px;
+   margin: 0px;
+   position: fixed;
+   top: 5%;
+   text-align: justify;
+
+}  
 
 @-webkit-keyframes glow {
     from {
@@ -43,4 +52,10 @@ nav{
     to {
         text-shadow: none;
     }
+}
+
+h3 {
+    font-family: nevera;
+    font-size: 30px;
+    color: rgb(0, 174, 255);
 }
