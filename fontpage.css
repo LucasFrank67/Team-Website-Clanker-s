@@ -23,6 +23,10 @@ body {
     font-family: nevera;
     font-size: 20px;
     float: right;
+    align-items: center;
+    float: right;
+    text-indent: 20%;
+    text-align: center;
 
 }
 h1 {
