@@ -1,16 +1,71 @@
 @font-face {
     font-family: nevera;
     src: url(nevera\ \(2\).otf) format("opentype");
-    src: url(cyberform-demo.otf) format("opentype");
-    font-family: cyberform;
+    
+
 }
-body{ 
-    background-color: rgb(0,174, 255);
+@font-face {
+    font-family: Cyberform;
+    src: url(cyberform.ttf) format("truetype");
+}
+    
+
+body {
+    color: rgb(0,174, 255);
+    background-color: black;
     font-family: nevera;
     text-align: center;
     font-weight: bold;
+    font-size: 20px;
+    
 
 }
+.p1 {
+    font-family: nevera;
+    font-size: 30px;
+}
 h1 {
-    font-family: cyberform;
+    font-family: Cyberform;
+    font-size: 75px
+
+}
+
+nav  {
+    -webkit-animation: glow 3s ease-in-out infinite alternate;
+    animation: glow 3s ease-in-out infinite alternate;
+    -moz-animation: glow 3s ease-in-out infinite alternate;
+   display: block;
+   float: left;
+   border: 2px solid rgb(0, 174, 255);
+   width: 10%;
+   height: 700px;
+   padding: 10px;
+   margin: 0px;
+   position: fixed;
+   top: 4%;
+   text-align: justify;
+
+}  
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 50px rgb(0, 174, 255), 0 0 20px rgb(0, 174, 255), 0 0 30px rgb(0, 174, 255), 0 0 40px
+         rgb(0, 174, 255), 0 0 50px rgb(0, 174, 255), 0 0 60px rgb(0, 174, 255), 0 0 70px rgb(0, 174, 255);
+    }
+    to {
+        text-shadow: none;
+    }
+}
+
+h4 {
+    font-family: nevera;
+    font-size: 30px;
+    color: rgb(0, 174, 255);
+    float: right;
+    position: fixed;
+    top: 4%;
+    right: 5%;
+    text-decoration: underline;
+
+
 }
