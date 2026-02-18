@@ -19,9 +19,11 @@ body {
     font-size: 20px;
     
 }
-.p1 {
+.storyup {
     font-family: nevera;
-    font-size: 30px;
+    font-size: 20px;
+    float: right;
+
 }
 h1 {
     font-family: Cyberform;
