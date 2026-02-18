@@ -6,12 +6,36 @@
     <title>Clanker&apos;s Contact Page</title>
     <link href="fontpage.css" rel="stylesheet" type="text/css"/>
     <style>
+        @font-face {
+            font-family: nevera;
+            src: url(nevera.otf) format("opentype")
+        }
         h1{
             font-size: 54px;
+            font-family:nevera;
+            
+        }
+        nav  {
+            -webkit-animation: glow 3s ease-in-out infinite alternate;
+             animation: glow 3s ease-in-out infinite alternate;
+            -moz-animation: glow 3s ease-in-out infinite alternate;
+        display: block;
+        float: left;
+        border: 2px solid rgb(0, 174, 255);
+        width: 10%;
+        height: 700px;
+        padding: 10px;
+        margin: 0px;
+        position: fixed;
+        top: 4%;
+        text-align: justify;
         }
     </style>
 </head>
 <body>
+    <nav>
+
+    </nav>
     <h1>Contact Us</h1>
     <form action="index.htm" method="post">
         <label for="firstname">First Name</label>
@@ -23,7 +47,9 @@
         <label for="email">Email</label>
         <input type="email" name="email" id="email" accesskey="e" tabindex="3"/>
         </br>
-        <textarea rows="6" cols="50" maxlength="750"></textarea>
+        </br>
+        <textarea rows="6" cols="50" maxlength="750">Additional comments?</textarea>
+        </br>
         <button>Submit</button>
     </form>
 </body>
