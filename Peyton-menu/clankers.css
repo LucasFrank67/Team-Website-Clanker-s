@@ -9,10 +9,6 @@ body {
     font-family: nevera;
     src: url(nevera\ \(2\).otf) format("opentype");
 }
-@font-face {
-    font-family: monospaceneon;
-    src: url(monospaceneon.otf) format("opentype");
-}
 .header {
     background-color: rgba(2, 6, 23, 0.95);
     border-bottom: 1px solid #374151;
@@ -53,10 +49,10 @@ body {
 }
 
 .header .tagline {
-    font-family: monospaceneon;
+    font-family: nevera;
     color: #fbbf24;
-    margin-left: 10px;
-    font-size: 27px;
+    margin-left: 5px;
+    font-size: 1.6em;
 }
 
 .container {
