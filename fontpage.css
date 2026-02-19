@@ -20,13 +20,13 @@ body {
     
 }
 .story {
+    position: relative;
     font-family: nevera;
     font-size: 20px;
-    float: right;
-    align-items: center;
-    float: right;
+    top: 100%;
     text-indent: 20%;
     text-align: center;
+
 
 }
 h1 {
@@ -41,13 +41,13 @@ nav  {
    float: left;
    border: 2px solid rgb(0, 174, 255);
    width: 10%;
-   height: 700px;
+   height: 200px;
    padding: 10px;
    margin: 0px;
    position: fixed;
    top: 4%;
    text-align: justify;
-text-shadow: 0 0 10px rgb(0, 174, 255), 0 0 20px rgb(0, 174, 255);
+   text-shadow: 0 0 10px rgb(0, 174, 255), 0 0 20px rgb(0, 174, 255), 0 0 40px rgb(0, 174, 255);
 }  
 
 
