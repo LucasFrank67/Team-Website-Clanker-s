@@ -40,8 +40,13 @@ a:link {
     text-decoration: none;
     text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
 }
+a:visited {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-shadow: 0 0 10px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 40px rgb(255, 255, 255);
+}
 nav  {
-   
+   background-color:  #000000;
    display: block;
    float: left;
    width: 10%;
