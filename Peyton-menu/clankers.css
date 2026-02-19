@@ -1,11 +1,14 @@
 body {
     margin: 0;
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: nevera;
     background-color: #0f172a;
     color: #e5e7eb;
     min-height: 100vh;
 }
-
+@font-face {
+    font-family: nevera;
+    src: url(nevera\ \(2\).otf) format("opentype");
+}
 .header {
     background-color: rgba(2, 6, 23, 0.95);
     border-bottom: 1px solid #374151;
@@ -46,11 +49,11 @@ body {
 }
 
 .header .tagline {
-    font-family: cursive;
+    font-family: nevera;
     font-style: italic;
     color: #fbbf24;
     margin-left: 10px;
-    font-size: 32px;
+    font-size: 27px;
 }
 
 .container {

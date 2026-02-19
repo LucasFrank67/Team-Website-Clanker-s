@@ -16,9 +16,6 @@
             
         }
         nav  {
-            -webkit-animation: glow 3s ease-in-out infinite alternate;
-             animation: glow 3s ease-in-out infinite alternate;
-            -moz-animation: glow 3s ease-in-out infinite alternate;
             display: block;
             float: left;
             border: 2px solid rgb(0, 174, 255);
@@ -30,7 +27,7 @@
             top: 4%;
             text-align: justify;
         }
-        p{
+        .text{
             text-decoration:underline;
         }
         .boxC{
@@ -41,6 +38,11 @@
             padding:10px;
             margin-top:10px;
         }
+        .comment{
+            float:left;
+            font-size:10px;
+            text-decoration:none;
+        }
     </style>
 </head>
 <body>
@@ -49,7 +51,9 @@
     </br>
     </br>
         <a href="order.html">Menu</a>
+        <div class="text">
         <p>Locations</p>
+        </div>
     </nav>
     <h1>Contact Us</h1>
     <form action="index.htm" method="post">
@@ -68,10 +72,11 @@
         <button>Submit</button>
     </form>
     <div class="boxC">
-        <h1>Common Comments</h1>
-        <ul>
-            <li></li>
-        </ul>
+        <h1>Comments</h1>
+        <div class="comment">
+        <p>John Clanker</p>
+        <img src="pfp.jpg" width="50px" height="50px"/>
+        </div>
     </div>
 
 </body>
